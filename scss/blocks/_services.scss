@@ -1,0 +1,35 @@
+.services {
+    padding-bottom: 160px;
+    position: relative;
+    
+}
+
+.services__inner {
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+}
+
+.services__item {
+    width: 33.333333%;
+    padding: 60px 50px;
+    box-shadow: 0px 0px 9px 0px rgba(73, 73, 73, 0.4);
+}
+
+.services__title {
+    font-size: 20px;
+    color: $black;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.services__link {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $black;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+  
