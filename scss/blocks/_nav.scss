@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    height: 1000%;
+    align-items: center;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 8px;
+    margin-left: 25px;
+
+    &:last-child {
+        margin-left: 0;
+    }
+
+    &:hover {
+        border-top: 1px dashed white;
+    }
+}
