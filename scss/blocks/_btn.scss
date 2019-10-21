@@ -16,4 +16,16 @@
         border: 1px solid white;
         padding: 9px 14px;
     }
+
+    &--black {
+        background-color: $black;
+        color: white;
+
+        &:hover {
+        background-color: white;
+        color: $black;
+        border: 1px solid $black;
+        padding: 9px 14px;
+        }
+    }
 }

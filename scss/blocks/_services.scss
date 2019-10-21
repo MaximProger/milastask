@@ -31,5 +31,9 @@
     font-size: 13px;
     font-weight: 500;
     margin-top: 25px;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
   
