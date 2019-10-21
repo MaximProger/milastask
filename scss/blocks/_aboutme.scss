@@ -1,6 +1,19 @@
 .aboutme {
     padding: 100px 0;
     position: relative;
+    z-index: 1;
+
+    &:before {
+        content: "";
+        background: url("../images/figure2.svg") no-repeat;
+        position: absolute;
+        top: 500px;
+        right: 0;
+        left: 1150px;
+        bottom: 0;
+        z-index: -1;
+
+    }
 
     &::after {
         content: "";
@@ -14,26 +27,20 @@
         z-index: -1;
     }
 
-}
 
-// .aboutme__bg {
-//     position: absolute;
-//     background-color: $black;
-//     height: 100%;
-//     width: 24%;
-//     max-width: 100%;
-//     top: 0;
-//     left: 0;
-// }
+
+}
 
 .aboutme__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .aboutme__content {
     width: 51.28%;
+
 } 
 
 .aboutme__title {
