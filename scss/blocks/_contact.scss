@@ -1,0 +1,43 @@
+.contact {
+    background-color: $black;
+    padding: 200px 0 125px;
+}
+
+.contact__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__info {
+    max-width: 34.1%;
+    width: 100%;
+}
+
+.contact__title {
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.contact__text {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 38px;
+}
+
+.contact__contacts__item {
+    color: white;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #111111;
+
+}
+
+.contact__form {
+    padding: 70px 30px 55px;
+    width: 59.82%;
+    background-color: #0c0c0c;
+}

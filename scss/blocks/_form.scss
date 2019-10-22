@@ -1,0 +1,41 @@
+
+.form__wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    .form__input {
+        max-width: 48%;
+        width: 100%;
+    }
+    
+}
+
+.form__input,
+.form__textarea {
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 15px;
+    color: $gray;
+    background-color: #1c1c1c;
+    border: none;
+
+    &:focus {
+        border: 1px solid #6b6b6b;
+        outline: 0;
+    }
+
+    &::placeholder {
+        color: #6b6b6b;
+    }
+}
+
+.form__textarea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 170px;
+    resize: none;
+    
+}

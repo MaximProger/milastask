@@ -1,5 +1,30 @@
 .projects {
     padding: 140px 0;
+    position: relative;
+
+    &:before {
+        content: "";
+        background: url("../images/figure4.svg") no-repeat;
+        position: absolute;
+        top: 170px;
+        right: 0;
+        left: 1755px;
+        bottom: 0;
+        z-index: -1;
+
+    }
+
+    &:after {
+        content: "";
+        background: url("../images/figure3.svg") no-repeat;
+        position: absolute;
+        top: 750px;
+        right: 0;
+        left: 100px;
+        bottom: 0;
+        z-index: -1;
+
+    }
 }
 
 .projects__head {
