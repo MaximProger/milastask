@@ -25,6 +25,7 @@ p {
     margin: 0;
 }
 
+
 // Import blocks
 
 @import './blocks/container';
@@ -45,3 +46,7 @@ p {
 @import './blocks/form';
 @import './blocks/footer';
 @import './blocks/burger';
+
+.hide {
+    display: none;
+}
