@@ -13,6 +13,14 @@
         z-index: -1;
 
     }
+
+    @media (max-width: $mobile) {
+        padding: 70px 0 120px;
+    }
+
+    @media (max-width: $mobile-sm) {
+        padding: 50px;
+    }
 }
 
 .provide__content {
@@ -21,6 +29,10 @@
     width: 100%;
     margin: 0 auto;
     margin-bottom: 80px;
+
+    @media (max-width: $mobile-sm) {
+        margin-bottom: 40px;
+    }
 }
 
 .provide__title {
@@ -28,6 +40,10 @@
     font-weight: 500;
     color: $black;
     margin-bottom: 30px;
+
+    @media (max-width: $mobile-sm) {
+        margin-bottom: 15px;
+    }
 }
 
 .provide__text {
@@ -39,6 +55,10 @@
 .provide__services {
     display: flex;
     flex-wrap: wrap;
+
+    @media (max-width: $mobile) {
+        justify-content: center;
+    }
 }
 
 .provide__services__item {
@@ -65,6 +85,10 @@
         .provide__services__item__text {
             color: #dcdcdc;
         }
+    }
+
+    @media (max-width: $mobile-sm) {
+        width: 100%;
     }
 
 }

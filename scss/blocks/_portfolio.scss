@@ -1,6 +1,10 @@
 .portfolio {
     background-color: $black;
     padding: 110px 0;
+
+    @media (max-width: $mobile-sm) {
+        padding: 80px 0;
+    }
 }
 
 .portfolio__head {
@@ -14,6 +18,10 @@
     font-size: 36px;
     font-weight: 500;
     margin-bottom: 30px;
+
+    @media (max-width: $mobile-sm) {
+        margin-bottom: 15px;
+    }
 }
 
 .portfolio__head__text {
@@ -27,6 +35,11 @@
     margin-top: 70px;
     display: flex;
     justify-content: center;
+
+    @media (max-width: $mobile-sm) {
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
     
 }
 
@@ -40,6 +53,14 @@
     &:hover {
         color: #ffa801;
     }
+
+    @media (max-width: $mobile) {
+        margin: 0 15px;
+    }
+
+    @media (max-width: $mobile-sm) {
+        margin: 0 5px;
+    }
 }
 
 .portfolio__works {
@@ -50,10 +71,19 @@
 .portfolio__works__bot {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: $mobile-sm) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 .portfolio__works__top {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+
+    @media (max-width: $tablet) {
+        margin-bottom: 5px;
+    }
 }
 
 .portfolio__works__item {
@@ -82,7 +112,7 @@
     display: inline-block;
     max-width: 100%;
     height: auto;
-
+    padding: 5px;
     transition: opacity .2s linear;
 
 

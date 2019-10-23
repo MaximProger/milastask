@@ -25,6 +25,23 @@
         z-index: -1;
 
     }
+
+    @media (max-width: $notebook) {
+
+        &:before,
+        &:after {
+            display: none;
+        }
+    
+    }
+
+    @media (max-width: $mobile) {
+        padding: 100px 0;
+    }
+
+    @media (max-width: $mobile-sm) {
+        padding: 80px 0;
+    }
 }
 
 .projects__head {

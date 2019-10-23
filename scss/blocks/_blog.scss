@@ -9,6 +9,11 @@
 .blog__item {
     width: 40.1%;
     box-shadow: 0px 0px 9px 0px rgba(73, 73, 73, 0.4);
+
+    @media (max-width: $tablet) {
+        display: flex;
+        width: 100%;
+    }
 }
 
 .blog__image {
@@ -17,7 +22,15 @@
     img {
         display: block;
         margin: 8px;
+        max-width: 100%;
         
+        @media (max-width: $tablet) {
+            max-width: 100%;
+        }
+
+        @media (max-width: $mobile-sm) {
+            display: none;
+        }
     }
 }
 
@@ -74,6 +87,7 @@
         width: 670px;
         margin-bottom: 30px;
 
+
         &:last-child {
             margin-bottom: 0;
         }
@@ -81,6 +95,11 @@
         .blog__wrap {
             padding: 25px 0 25px 20px ;
 
+        }
+
+        @media (max-width: $tablet) {
+            margin-top: 30px;
+            width: 100%;
         }
 
     }

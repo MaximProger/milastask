@@ -28,6 +28,15 @@
     }
 
 
+    @media (max-width: $mobile-sm) {
+        &::before,
+        &::after {
+            display: none;
+        }
+
+        padding: 0 0 70px;
+    }
+
 
 }
 
@@ -35,11 +44,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: $mobile-sm) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     
 }
 
 .aboutme__content {
     width: 51.28%;
+
+    @media (max-width: $mobile-sm) {
+        width: 100%;
+        order: 1;
+    }
 
 } 
 
